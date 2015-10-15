@@ -19,14 +19,16 @@ import play.api.data.Field
 import play.mvc.Http.Context.Implicit._
 import views.html._
 
-/* dashboard Template File */
-object dashboard extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with play.twirl.api.Template0[play.twirl.api.HtmlFormat.Appendable] {
+/**/
+object dashboard extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with play.twirl.api.Template1[models.User,play.twirl.api.HtmlFormat.Appendable] {
 
-  /* dashboard Template File */
-  def apply():play.twirl.api.HtmlFormat.Appendable = {
+  /**/
+  def apply/*1.2*/(localUser: models.User = null):play.twirl.api.HtmlFormat.Appendable = {
       _display_ {
 
-Seq[Any](_display_(/*3.2*/dashboardtem("Home")/*3.22*/{_display_(Seq[Any](format.raw/*3.23*/("""
+Seq[Any](format.raw/*1.33*/("""
+
+"""),_display_(/*3.2*/dashboardtem("Home")/*3.22*/{_display_(Seq[Any](format.raw/*3.23*/("""
 	
     """),format.raw/*5.5*/("""<div id="wrapper">
 
@@ -63,20 +65,20 @@ Seq[Any](_display_(/*3.2*/dashboardtem("Home")/*3.22*/{_display_(Seq[Any](format
 """)))}))}
   }
 
-  def render(): play.twirl.api.HtmlFormat.Appendable = apply()
+  def render(localUser:models.User): play.twirl.api.HtmlFormat.Appendable = apply(localUser)
 
-  def f:(() => play.twirl.api.HtmlFormat.Appendable) = () => apply()
+  def f:((models.User) => play.twirl.api.HtmlFormat.Appendable) = (localUser) => apply(localUser)
 
   def ref: this.type = this
 
 }
               /*
                   -- GENERATED --
-                  DATE: Thu Oct 15 03:21:07 BDT 2015
+                  DATE: Thu Oct 15 07:28:12 BDT 2015
                   SOURCE: F:/Shekhar/play project/bdbpcdb/bangladesh_db_police_criminal_database/app/views/admin/dashboard.scala.html
-                  HASH: 12ccdb44f9e31ce223c4648066197120002219a1
-                  MATRIX: 858->32|886->52|924->53|957->60
-                  LINES: 29->3|29->3|29->3|31->5
+                  HASH: f282ec95278a8f2027e78aae1e7d29098d438319
+                  MATRIX: 738->1|857->32|885->35|913->55|951->56|984->63
+                  LINES: 26->1|29->1|31->3|31->3|31->3|33->5
                   -- GENERATED --
               */
           

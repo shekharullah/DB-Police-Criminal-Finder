@@ -20,16 +20,16 @@ import play.mvc.Http.Context.Implicit._
 import views.html._
 
 /**/
-object admin extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with play.twirl.api.Template1[Form[_$1] forSome { 
+object admin extends BaseScalaTemplate[play.twirl.api.HtmlFormat.Appendable,Format[play.twirl.api.HtmlFormat.Appendable]](play.twirl.api.HtmlFormat) with play.twirl.api.Template2[Form[_$1] forSome { 
    type _$1 >: _root_.scala.Nothing <: _root_.scala.Any
-},play.twirl.api.HtmlFormat.Appendable] {
+},models.User,play.twirl.api.HtmlFormat.Appendable] {
 
   /**/
-  def apply/*1.2*/(signupForm: Form[_]):play.twirl.api.HtmlFormat.Appendable = {
+  def apply/*1.2*/(signupForm: Form[_],localUser: models.User = null):play.twirl.api.HtmlFormat.Appendable = {
       _display_ {import helper._
 import helper.twitterBootstrap._
 
-Seq[Any](format.raw/*1.23*/("""
+Seq[Any](format.raw/*1.53*/("""
 
 """),_display_(/*5.2*/dashboardtem("Home")/*5.22*/{_display_(Seq[Any](format.raw/*5.23*/("""
 	 """),format.raw/*6.3*/("""<div id="wrapper">
@@ -99,21 +99,21 @@ Seq[Any](format.raw/*1.23*/("""
 
   def render(signupForm:Form[_$1] forSome { 
    type _$1 >: _root_.scala.Nothing <: _root_.scala.Any
-}): play.twirl.api.HtmlFormat.Appendable = apply(signupForm)
+},localUser:models.User): play.twirl.api.HtmlFormat.Appendable = apply(signupForm,localUser)
 
   def f:((Form[_$1] forSome { 
    type _$1 >: _root_.scala.Nothing <: _root_.scala.Any
-}) => play.twirl.api.HtmlFormat.Appendable) = (signupForm) => apply(signupForm)
+},models.User) => play.twirl.api.HtmlFormat.Appendable) = (signupForm,localUser) => apply(signupForm,localUser)
 
   def ref: this.type = this
 
 }
               /*
                   -- GENERATED --
-                  DATE: Thu Oct 15 05:33:03 BDT 2015
+                  DATE: Thu Oct 15 06:43:37 BDT 2015
                   SOURCE: F:/Shekhar/play project/bdbpcdb/bangladesh_db_police_criminal_database/app/views/admin/admin.scala.html
-                  HASH: 0cb343374f0def0c258d0cfe638d5f8b6cdab310
-                  MATRIX: 803->1|960->22|988->76|1016->96|1054->97|1083->100|1629->619|1691->660|1808->785|1841->792|1856->798|1899->832|1939->834|1986->854|2025->884|2065->886|2111->904|2207->973|2226->983|2267->1003|2334->1039|2389->1067|2539->1196|2595->1225|2641->1250|2697->1279|2746->1307|2788->1321|2844->1350|2904->1389|2967->1422|2999->1427
+                  HASH: 30b7ba5708024d4d70285f598487975cbd1796bc
+                  MATRIX: 815->1|1002->52|1030->106|1058->126|1096->127|1125->130|1671->649|1733->690|1850->815|1883->822|1898->828|1941->862|1981->864|2028->884|2067->914|2107->916|2153->934|2249->1003|2268->1013|2309->1033|2376->1069|2431->1097|2581->1226|2637->1255|2683->1280|2739->1309|2788->1337|2830->1351|2886->1380|2946->1419|3009->1452|3041->1457
                   LINES: 28->1|32->1|34->5|34->5|34->5|35->6|51->22|51->22|57->28|58->29|58->29|58->29|58->29|60->31|60->31|60->31|61->32|62->33|62->33|62->33|64->35|66->37|69->40|71->42|71->42|73->44|73->44|75->46|75->46|75->46|76->47|77->48
                   -- GENERATED --
               */
