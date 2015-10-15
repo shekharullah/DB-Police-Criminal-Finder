@@ -1,0 +1,828 @@
+2015-10-15 02:46:19,788 - [INFO] - from play in pool-4-thread-1 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2015-10-15 02:47:14,808 - [INFO] - from application in play-internal-execution-context-1 
+Application started!
+
+2015-10-15 02:47:19,030 - [DEBUG] - from application in play-internal-execution-context-1 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 02:47:19,031 - [INFO] - from application in play-internal-execution-context-1 
+Connected to Database!
+
+2015-10-15 02:47:19,762 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-10-15 02:52:21,124 - [INFO] - from application in play-internal-execution-context-2 
+Application started!
+
+2015-10-15 02:52:24,050 - [DEBUG] - from application in play-internal-execution-context-2 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 02:52:24,051 - [INFO] - from application in play-internal-execution-context-2 
+Connected to Database!
+
+2015-10-15 02:52:24,489 - [WARN] - from application in play-internal-execution-context-2 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 02:52:24,493 - [INFO] - from play in play-internal-execution-context-2 
+Application started (Dev)
+
+2015-10-15 02:53:27,956 - [INFO] - from application in play-internal-execution-context-2 
+Application started!
+
+2015-10-15 02:53:30,830 - [DEBUG] - from application in play-internal-execution-context-2 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 02:53:30,832 - [INFO] - from application in play-internal-execution-context-2 
+Connected to Database!
+
+2015-10-15 02:53:31,148 - [WARN] - from application in play-internal-execution-context-2 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 02:53:31,151 - [INFO] - from play in play-internal-execution-context-2 
+Application started (Dev)
+
+2015-10-15 02:59:51,054 - [ERROR] - from application in New I/O worker #3 
+
+
+! @6nn4lad51 - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[value index is not a member of controllers.ReverseApplication]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.9.jar:2.3.9]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.9.jar:2.3.9]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-10-15 03:00:34,330 - [ERROR] - from application in New I/O worker #3 
+
+
+! @6nn4lcp69 - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[value index is not a member of controllers.ReverseApplication]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.9.jar:2.3.9]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.9.jar:2.3.9]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-10-15 03:01:16,439 - [ERROR] - from application in New I/O worker #3 
+
+
+! @6nn4lf9do - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[error: cannot find symbol]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.9.jar:2.3.9]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.9.jar:2.3.9]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-10-15 03:03:30,387 - [ERROR] - from application in New I/O worker #3 
+
+
+! @6nn4lmphj - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[error: cannot find symbol]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.9.jar:2.3.9]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.9.jar:2.3.9]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-10-15 03:05:14,749 - [ERROR] - from application in New I/O worker #3 
+
+
+! @6nn4m2o1h - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[error: cannot find symbol]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.9.jar:2.3.9]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.9.jar:2.3.9]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-10-15 03:06:22,224 - [INFO] - from application in play-internal-execution-context-2 
+Application started!
+
+2015-10-15 03:06:25,654 - [DEBUG] - from application in play-internal-execution-context-2 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 03:06:25,656 - [INFO] - from application in play-internal-execution-context-2 
+Connected to Database!
+
+2015-10-15 03:06:26,081 - [WARN] - from application in play-internal-execution-context-2 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 03:06:26,084 - [INFO] - from play in play-internal-execution-context-2 
+Application started (Dev)
+
+2015-10-15 03:07:35,449 - [INFO] - from play in play-akka.actor.default-dispatcher-46 
+Starting application default Akka system.
+
+2015-10-15 04:34:59,240 - [INFO] - from application in play-internal-execution-context-24 
+Application started!
+
+2015-10-15 04:35:03,802 - [DEBUG] - from application in play-internal-execution-context-24 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 04:35:03,803 - [INFO] - from application in play-internal-execution-context-24 
+Connected to Database!
+
+2015-10-15 04:35:04,116 - [WARN] - from application in play-internal-execution-context-24 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 04:35:04,119 - [INFO] - from play in play-internal-execution-context-24 
+Application started (Dev)
+
+2015-10-15 04:38:56,616 - [INFO] - from application in play-internal-execution-context-25 
+Application started!
+
+2015-10-15 04:38:59,667 - [DEBUG] - from application in play-internal-execution-context-25 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 04:38:59,668 - [INFO] - from application in play-internal-execution-context-25 
+Connected to Database!
+
+2015-10-15 04:38:59,989 - [WARN] - from application in play-internal-execution-context-25 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 04:38:59,992 - [INFO] - from play in play-internal-execution-context-25 
+Application started (Dev)
+
+2015-10-15 04:42:41,961 - [INFO] - from application in play-internal-execution-context-28 
+Application started!
+
+2015-10-15 04:42:44,894 - [DEBUG] - from application in play-internal-execution-context-28 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 04:42:44,895 - [INFO] - from application in play-internal-execution-context-28 
+Connected to Database!
+
+2015-10-15 04:42:45,203 - [WARN] - from application in play-internal-execution-context-28 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 04:42:45,206 - [INFO] - from play in play-internal-execution-context-28 
+Application started (Dev)
+
+2015-10-15 04:46:28,912 - [INFO] - from application in play-internal-execution-context-29 
+Application started!
+
+2015-10-15 04:46:32,956 - [DEBUG] - from application in play-internal-execution-context-29 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 04:46:32,957 - [INFO] - from application in play-internal-execution-context-29 
+Connected to Database!
+
+2015-10-15 04:46:33,280 - [WARN] - from application in play-internal-execution-context-29 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 04:46:33,284 - [INFO] - from play in play-internal-execution-context-29 
+Application started (Dev)
+
+2015-10-15 04:48:32,227 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6nn59hdo6 - Internal server error, for (GET) [/user] ->
+
+play.PlayExceptions$CompilationException: Compilation error[error: method render in class addUser cannot be applied to given types;]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.9.jar:2.3.9]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.9.jar:2.3.9]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-10-15 04:50:35,869 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6nn59oelh - Internal server error, for (GET) [/user] ->
+
+play.PlayExceptions$CompilationException: Compilation error[error: method render in class addUser cannot be applied to given types;]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.9.jar:2.3.9]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.9.jar:2.3.9]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-10-15 04:53:11,574 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6nn5a7b44 - Internal server error, for (GET) [/user] ->
+
+play.PlayExceptions$CompilationException: Compilation error[object User is not a member of package controllers]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.9.jar:2.3.9]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.9.jar:2.3.9]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-10-15 04:53:27,788 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6nn5a893p - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[object User is not a member of package controllers]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.9.jar:2.3.9]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.9.jar:2.3.9]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-10-15 04:53:48,620 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6nn5a9dp4 - Internal server error, for (GET) [/] ->
+
+play.PlayExceptions$CompilationException: Compilation error[object User is not a member of package controllers]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.9.jar:2.3.9]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.9.jar:2.3.9]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-10-15 04:54:20,494 - [INFO] - from application in play-internal-execution-context-29 
+Application started!
+
+2015-10-15 04:54:23,435 - [DEBUG] - from application in play-internal-execution-context-29 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 04:54:23,436 - [INFO] - from application in play-internal-execution-context-29 
+Connected to Database!
+
+2015-10-15 04:54:23,747 - [WARN] - from application in play-internal-execution-context-29 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 04:54:23,750 - [INFO] - from play in play-internal-execution-context-29 
+Application started (Dev)
+
+2015-10-15 04:57:39,432 - [INFO] - from application in play-internal-execution-context-30 
+Application started!
+
+2015-10-15 04:57:42,777 - [DEBUG] - from application in play-internal-execution-context-30 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 04:57:42,778 - [INFO] - from application in play-internal-execution-context-30 
+Connected to Database!
+
+2015-10-15 04:57:43,117 - [WARN] - from application in play-internal-execution-context-30 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 04:57:43,120 - [INFO] - from play in play-internal-execution-context-30 
+Application started (Dev)
+
+2015-10-15 04:58:31,644 - [INFO] - from application in play-internal-execution-context-34 
+Application started!
+
+2015-10-15 04:58:34,532 - [DEBUG] - from application in play-internal-execution-context-34 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 04:58:34,533 - [INFO] - from application in play-internal-execution-context-34 
+Connected to Database!
+
+2015-10-15 04:58:34,855 - [WARN] - from application in play-internal-execution-context-34 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 04:58:34,858 - [INFO] - from play in play-internal-execution-context-34 
+Application started (Dev)
+
+2015-10-15 04:59:47,791 - [INFO] - from application in play-internal-execution-context-37 
+Application started!
+
+2015-10-15 04:59:51,014 - [DEBUG] - from application in play-internal-execution-context-37 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 04:59:51,015 - [INFO] - from application in play-internal-execution-context-37 
+Connected to Database!
+
+2015-10-15 04:59:51,335 - [WARN] - from application in play-internal-execution-context-37 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 04:59:51,338 - [INFO] - from play in play-internal-execution-context-37 
+Application started (Dev)
+
+2015-10-15 05:02:12,388 - [INFO] - from application in play-internal-execution-context-40 
+Application started!
+
+2015-10-15 05:02:15,691 - [DEBUG] - from application in play-internal-execution-context-40 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 05:02:15,692 - [INFO] - from application in play-internal-execution-context-40 
+Connected to Database!
+
+2015-10-15 05:02:16,024 - [WARN] - from application in play-internal-execution-context-40 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 05:02:16,028 - [INFO] - from play in play-internal-execution-context-40 
+Application started (Dev)
+
+2015-10-15 05:09:33,532 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6nn5cb7jn - Internal server error, for (GET) [/signup] ->
+
+play.PlayExceptions$CompilationException: Compilation error[not found: value signupForm]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.9.jar:2.3.9]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.9.jar:2.3.9]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-10-15 05:10:31,161 - [ERROR] - from application in New I/O worker #1 
+
+
+! @6nn5cef0c - Internal server error, for (GET) [/signup] ->
+
+play.PlayExceptions$CompilationException: Compilation error[error: method render in class admin cannot be applied to given types;]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.9.jar:2.3.9]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.9.jar:2.3.9]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-10-15 05:16:04,436 - [ERROR] - from application in New I/O worker #3 
+
+
+! @6nn5d7e0j - Internal server error, for (GET) [/signup] ->
+
+play.PlayExceptions$CompilationException: Compilation error[error: cannot find symbol]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.9.jar:2.3.9]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.9.jar:2.3.9]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-10-15 05:17:17,682 - [INFO] - from application in play-internal-execution-context-42 
+Application started!
+
+2015-10-15 05:17:20,652 - [DEBUG] - from application in play-internal-execution-context-42 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 05:17:20,653 - [INFO] - from application in play-internal-execution-context-42 
+Connected to Database!
+
+2015-10-15 05:17:20,966 - [WARN] - from application in play-internal-execution-context-42 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 05:17:20,969 - [INFO] - from play in play-internal-execution-context-42 
+Application started (Dev)
+
+2015-10-15 05:23:33,023 - [INFO] - from application in play-internal-execution-context-43 
+Application started!
+
+2015-10-15 05:23:35,939 - [DEBUG] - from application in play-internal-execution-context-43 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 05:23:35,940 - [INFO] - from application in play-internal-execution-context-43 
+Connected to Database!
+
+2015-10-15 05:23:36,248 - [WARN] - from application in play-internal-execution-context-43 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 05:23:36,251 - [INFO] - from play in play-internal-execution-context-43 
+Application started (Dev)
+
+2015-10-15 05:29:54,234 - [INFO] - from application in play-internal-execution-context-55 
+Application started!
+
+2015-10-15 05:29:57,082 - [DEBUG] - from application in play-internal-execution-context-55 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 05:29:57,083 - [INFO] - from application in play-internal-execution-context-55 
+Connected to Database!
+
+2015-10-15 05:29:57,389 - [WARN] - from application in play-internal-execution-context-55 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 05:29:57,393 - [INFO] - from play in play-internal-execution-context-55 
+Application started (Dev)
+
+2015-10-15 05:30:55,060 - [INFO] - from application in play-internal-execution-context-56 
+Application started!
+
+2015-10-15 05:30:57,999 - [DEBUG] - from application in play-internal-execution-context-56 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 05:30:58,000 - [INFO] - from application in play-internal-execution-context-56 
+Connected to Database!
+
+2015-10-15 05:30:58,311 - [WARN] - from application in play-internal-execution-context-56 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 05:30:58,314 - [INFO] - from play in play-internal-execution-context-56 
+Application started (Dev)
+
+2015-10-15 05:33:05,580 - [INFO] - from application in play-internal-execution-context-56 
+Application started!
+
+2015-10-15 05:33:08,563 - [DEBUG] - from application in play-internal-execution-context-56 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 05:33:08,564 - [INFO] - from application in play-internal-execution-context-56 
+Connected to Database!
+
+2015-10-15 05:33:09,621 - [WARN] - from application in play-internal-execution-context-56 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 05:33:09,623 - [INFO] - from play in play-internal-execution-context-56 
+Application started (Dev)
+
+2015-10-15 05:43:31,386 - [INFO] - from application in play-internal-execution-context-56 
+Application started!
+
+2015-10-15 05:43:34,260 - [DEBUG] - from application in play-internal-execution-context-56 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 05:43:34,260 - [INFO] - from application in play-internal-execution-context-56 
+Connected to Database!
+
+2015-10-15 05:43:34,567 - [WARN] - from application in play-internal-execution-context-56 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 05:43:34,570 - [INFO] - from play in play-internal-execution-context-56 
+Application started (Dev)
+
+2015-10-15 05:52:48,131 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6nn5i2no5 - Internal server error, for (GET) [/logout] ->
+
+play.PlayExceptions$CompilationException: Compilation error[error: missing return statement]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.9.jar:2.3.9]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.9.jar:2.3.9]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-10-15 05:54:57,878 - [INFO] - from application in play-internal-execution-context-56 
+Application started!
+
+2015-10-15 05:55:00,839 - [DEBUG] - from application in play-internal-execution-context-56 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 05:55:00,840 - [INFO] - from application in play-internal-execution-context-56 
+Connected to Database!
+
+2015-10-15 05:55:01,158 - [WARN] - from application in play-internal-execution-context-56 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 05:55:01,161 - [INFO] - from play in play-internal-execution-context-56 
+Application started (Dev)
+
+2015-10-15 06:05:28,685 - [INFO] - from application in play-internal-execution-context-56 
+Application started!
+
+2015-10-15 06:05:31,548 - [DEBUG] - from application in play-internal-execution-context-56 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 06:05:31,548 - [INFO] - from application in play-internal-execution-context-56 
+Connected to Database!
+
+2015-10-15 06:05:31,860 - [WARN] - from application in play-internal-execution-context-56 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 06:05:31,861 - [INFO] - from play in play-internal-execution-context-56 
+Application started (Dev)
+
+2015-10-15 06:09:54,605 - [ERROR] - from application in New I/O worker #2 
+
+
+! @6nn5k989p - Internal server error, for (GET) [/signup] ->
+
+play.PlayExceptions$CompilationException: Compilation error[Not parsed?]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at play.PlayExceptions$CompilationException$.apply(PlayExceptions.scala:27) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:49) ~[na:na]
+	at play.PlayReload$$anonfun$taskFailureHandler$1.apply(PlayReload.scala:44) ~[na:na]
+	at scala.Option.map(Option.scala:145) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.taskFailureHandler(PlayReload.scala:44) ~[na:na]
+	at play.PlayReload$.compileFailure(PlayReload.scala:40) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at play.PlayReload$$anonfun$compile$1.apply(PlayReload.scala:17) ~[na:na]
+	at scala.util.Either$LeftProjection.map(Either.scala:377) ~[scala-library-2.11.1.jar:na]
+	at play.PlayReload$.compile(PlayReload.scala:17) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.PlayRun$$anonfun$playRunTask$1$$anonfun$apply$2$$anonfun$apply$3$$anonfun$2.apply(PlayRun.scala:62) ~[na:na]
+	at play.runsupport.Reloader.reload(Reloader.scala:295) ~[na:na]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:122) ~[play_2.11-2.3.9.jar:2.3.9]
+	at play.core.ReloadableApplication$$anonfun$get$1.apply(ApplicationProvider.scala:120) ~[play_2.11-2.3.9.jar:2.3.9]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.liftedTree1$1(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.impl.Future$PromiseCompletingRunnable.run(Future.scala:24) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1361) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979) ~[scala-library-2.11.1.jar:na]
+	at scala.concurrent.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107) ~[scala-library-2.11.1.jar:na]
+
+2015-10-15 06:10:15,209 - [INFO] - from application in play-internal-execution-context-72 
+Application started!
+
+2015-10-15 06:10:18,057 - [DEBUG] - from application in play-internal-execution-context-72 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 06:10:18,058 - [INFO] - from application in play-internal-execution-context-72 
+Connected to Database!
+
+2015-10-15 06:10:18,695 - [WARN] - from application in play-internal-execution-context-72 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 06:10:18,698 - [INFO] - from play in play-internal-execution-context-72 
+Application started (Dev)
+
+2015-10-15 06:11:01,953 - [INFO] - from application in play-internal-execution-context-73 
+Application started!
+
+2015-10-15 06:11:04,877 - [DEBUG] - from application in play-internal-execution-context-73 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 06:11:04,878 - [INFO] - from application in play-internal-execution-context-73 
+Connected to Database!
+
+2015-10-15 06:11:05,195 - [WARN] - from application in play-internal-execution-context-73 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 06:11:05,198 - [INFO] - from play in play-internal-execution-context-73 
+Application started (Dev)
+
+2015-10-15 06:15:26,586 - [INFO] - from application in play-internal-execution-context-75 
+Application started!
+
+2015-10-15 06:15:29,431 - [DEBUG] - from application in play-internal-execution-context-75 
+** Morphia datastore: bdbpcdb
+
+2015-10-15 06:15:29,432 - [INFO] - from application in play-internal-execution-context-75 
+Connected to Database!
+
+2015-10-15 06:15:29,743 - [WARN] - from application in play-internal-execution-context-75 
+A user service was already registered - replacing the old one (service.MyUserServicePlugin) with the new one (service.MyUserServicePlugin), however this might hint to a configuration problem if this is a production environment.
+
+2015-10-15 06:15:29,746 - [INFO] - from play in play-internal-execution-context-75 
+Application started (Dev)
+
